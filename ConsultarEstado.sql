@@ -1,3 +1,1 @@
-select * from estados
-where populacao >= 0.1
-order by populacao
+select id, nome as 'Nome do Estado', populacao, regiao, sigla from estados
